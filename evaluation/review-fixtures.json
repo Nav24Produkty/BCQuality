@@ -5,6 +5,10 @@
   "minimumCleanRate": 1.0,
   "coverageWaivers": [
     {
+      "path": "custom/knowledge/error-handling/commit-must-be-justified-by-comment.md",
+      "reason": "Organization-specific Custom-layer policy checked by the standalone commit-justification-check skill, not by an al-*-review leaf; it has no per-domain fixture selection."
+    },
+    {
       "path": "microsoft/knowledge/reporting/do-not-rename-or-remove-shipped-report-dataset-columns.md",
       "reason": "The defect is a change relative to a released version; a single neutralized sample cannot show which column names shipped before."
     },
